@@ -1,0 +1,251 @@
+
+<head>
+  <title>Shop | Sartorial Clothing</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #ff4f43;
+        }
+
+        a, a:hover, a:visited, a:link, a:active {
+            text-decoration: none;
+            color: #1a1a1a
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+        }
+
+        .image {
+            opacity: 1;
+            display: block;
+            width: 300;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .container:hover .image {
+            opacity: 0.3;
+        }
+
+        .container:hover .middle {
+            opacity: 1;
+        }
+
+        .text {
+            background-color: #ff8000;
+            color: #1a1a1a;
+            font-size: 32px;
+            padding: 16px 32px;
+            border-radius: 10px;
+        }
+
+
+
+
+
+.navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(255, 79, 67, 0.2);
+        color: #fff;
+        padding: 20px;
+        position: fixed; 
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+top: 0; 
+  left: 0; 
+  right: 0; 
+      }
+
+.navbar div:last-of-type {
+  margin-left: auto;
+}
+.navbar div:first-of-type {
+  margin-right: auto;
+}
+      .navbar a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        margin: 0 10px;
+
+      }
+
+       .navbar a.logo {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 0 10px;
+        margin-right: 50px;
+      }
+      .navbar a:hover {
+        color: #ddd;
+      }
+      .title-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+       padding-top: 40px;
+	   padding-bottom: 150px;
+      }
+      .title-page span {
+        font-size: 100px;
+        margin: 0;
+color:#ffff;
+      }
+
+      .title-page p {
+        font-size: 20px;
+        margin: 20px 0;
+        color: #fff;
+        align-text: center;
+line-break: before;
+
+      }
+      
+
+button.login {
+  border-radius: 50px; /* make the button rounded */
+  background-color: #333; /* dark gray background */
+  padding: 5px 12px; 
+  display:flex;
+align-items: center;
+border:none;
+}
+
+button.login img {
+  border-radius: 50%; /* make the image rounded */
+  width: 40px; 
+  object-fit: cover;
+margin-left: 10px; 
+}
+
+button.login span {
+  font-size: 12px;
+  color: #fff; 
+margin-left: 10px; 
+}
+
+button.login:hover {
+background-color:#1f1d1e;
+transition: 0.5s;
+  transform: scale(1.2);
+}
+
+
+
+    </style>
+</head>
+<body>
+    <center>
+<br/>
+<br/>
+
+
+
+
+<div class="navbar">
+      <a class="logo" href="#">Sartorial</a>
+      <div class="navOp">
+        <a href="#">Navigation Option 1</a>
+        <a href="#">Navigation Option 2</a>
+        <a href="#">Navigation Option 3</a>
+      </div>
+      <div>
+        <button class="login">
+<span>Your Account</span>
+   <img src="https://i.etsystatic.com/34732889/r/il/b08942/3768265623/il_fullxfull.3768265623_sji1.jpg" alt="">
+   </button>
+      </div>
+    </div>
+
+
+
+
+<div class="title-page">
+        <table style="width:75%;">
+            <tbody>
+                <tr>
+                    <td style="width:22%;height:auto;background-color:grey;padding:16px;text-align:center;border-radius:10px;">
+                        <center>
+                            <div class="container ">
+                                <img src="https://www.w3schools.com/w3css/img_avatar3.png" alt="Avatar " class="image ">
+                                <div class="middle ">
+                                    <div class="text ">
+                                        <a href="https://hi.com ">1v1.lol</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </center>
+                    </td>
+                    <td>
+                        <br/>
+                    </td>
+                    <td style="width:22%;height:auto;background-color:grey;padding:16px;text-align:center;border-radius:10px;">
+                        <center>
+                            <div class="container ">
+                                <img src="https://www.w3schools.com/w3css/img_avatar3.png  " alt="Avatar " class="image ">
+                                <div class="middle ">
+                                    <div class="text ">
+                                        <a href="https://hi.com ">Basketball Stars</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </center>
+                    </td>
+                    <td></td>
+                    <td style="width:22%;height:auto;background-color:grey;padding:16px;text-align:center;border-radius:10px;">
+                        <center>
+                            <div class="container ">
+                                <img src="https://www.w3schools.com/w3css/img_avatar3.png " alt="Avatar " class="image ">
+                                <div class="middle ">
+                                    <div class="text ">
+                                        <a href="https://hi.com ">Dinosaur Jurassic</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">
+                        <br>
+                    </td>
+                    <td style="text-align:center;">
+                        <br>
+                    </td>
+                    <td style="text-align:center;">
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">
+                        <br>
+                    </td>
+                    <td style="text-align:center;">
+                        <br>
+                    </td>
+                    <td style="text-align:center;">
+                        <br>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</div>
+    </center>
+</body>
+

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Templete | Sartorial Clothing</title>
+    <style>
+      
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(255, 79, 67, 0.2);
+        color: #fff;
+        padding: 20px;
+        position: fixed; 
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+top: 0; 
+  left: 0; 
+  right: 0; 
+      }
+
+.navbar div:last-of-type {
+  margin-left: auto;
+}
+.navbar div:first-of-type {
+  margin-right: auto;
+}
+      .navbar a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        margin: 0 10px;
+
+      }
+
+       .navbar a.logo {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 0 10px;
+        margin-right: 50px;
+      }
+      .navbar a:hover {
+        color: #ddd;
+      }
+      
+
+button.login {
+  border-radius: 50px; /* make the button rounded */
+  background-color: #333; /* dark gray background */
+  padding: 5px 12px; 
+  display:flex;
+align-items: center;
+border:none;
+}
+
+button.login img {
+  border-radius: 50%; /* make the image rounded */
+  width: 40px; 
+  object-fit: cover;
+margin-left: 10px; 
+}
+
+button.login span {
+  font-size: 12px;
+  color: #fff; 
+margin-left: 10px; 
+}
+
+button.login:hover {
+background-color:#1f1d1e;
+transition: 0.5s;
+  transform: scale(1.2);
+}
+
+/* --------------------------------- */
+      
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-color: #ff4f43;
+        transition: background-color 0.5s;
+
+      }
+      .content {
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+       padding-top: 40px;
+       padding-bottom: 150px;
+      }
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-item {
+  flex: 0 0 calc(25% - 20px);
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  background-color: #444;
+  border-radius: 5px;
+}
+.portfolio-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.portfolio-item h3 {
+  margin: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.portfolio-item p {
+  margin: 10px;
+  font-size: 0.9em;
+  color: #999;
+}
+.portfolio-item .cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.portfolio-item .cta:hover {
+  background-color: #fff;
+  color: #222;
+}
+
+      
+    </style>
+  </head>
+  
+  <body>
+    
+<!----------------------------------!>
+  <!-- navbar -->
+  <br>  <br>  
+    <div class="navbar">
+      <a class="logo" href="#">Sartorial</a>
+      <div class="navOp">
+        <a href="#">Navigation Option 1</a>
+        <a href="#">Navigation Option 2</a>
+        <a href="#">Navigation Option 3</a>
+      </div>
+      <div>
+        <button class="login">
+<span>Your Account</span>
+   <img src="https://i.etsystatic.com/34732889/r/il/b08942/3768265623/il_fullxfull.3768265623_sji1.jpg" alt="">
+   </button>
+      </div>
+    </div>    
+<!----------------------------------!>    
+    
+    <!-- content -->
+    <div class="content">
+      
+<div class="portfolio-items">
+      <div class="portfolio-item">
+        <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>A brief description of project 1.</p>
+        <div class="cta">
+          <a href="#">View Project</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>A brief description of project 2.</p>
+        <div class="cta">
+          <a href="#">View Project</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Project 3">
+        <h3>Project 3</h3>
+        <p>A brief description of project 3.</p>
+        <div class="cta">
+          <a href="#">View Project</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Project 4">
+        <h3>Project 4</h3>
+        <p>A brief description of project 4.</p>
+        <div class="cta">
+          <a href="#">View Project</a>
+        </div>
+      </div>
+      <!-- Add more portfolio items here -->
+    </div>      
+    </div>
+  </body>
+</html>
